@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Modern responsive portfolio landing page for a front-end developer and UI designer." />
+  <title>Kavindu Nimsara | Front-End Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header" id="top">
+      <nav class="navbar container" aria-label="Primary">
+        <a class="brand" href="#hero" aria-label="Go to home">
+          <span class="brand-mark">KN</span>
+          <span class="brand-text">Kavindu Nimsara</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu" id="nav-menu">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a class="nav-cta" href="#contact">Hire Me</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="hero">
+        <div class="hero-bg hero-bg-1"></div>
+        <div class="hero-bg hero-bg-2"></div>
+
+        <div class="container hero-grid reveal">
+          <div class="hero-copy">
+            <p class="eyebrow">Available for freelance work</p>
+            <h1>Hi, I’m <span>Kavindu Nimsara</span>.</h1>
+            <h2>Front-End Developer | UI Designer | Freelancer</h2>
+            <p class="lead">
+              I build modern, responsive websites with strong visual hierarchy, polished interactions, and clean code that performs well across devices.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contact">Hire Me</a>
+              <a class="btn btn-secondary" href="#projects">View Projects</a>
+            </div>
+
+            <ul class="hero-stats" aria-label="Highlights">
+              <li><strong>20+</strong><span>Projects Delivered</span></li>
+              <li><strong>100%</strong><span>Responsive Design</span></li>
+              <li><strong>Fast</strong><span>Turnaround</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual">
+            <div class="avatar-frame">
+              <img
+                src="mypic.jpg"
+                alt="Portrait placeholder for Your Name"
+              />
+            </div>
+            <div class="floating-card card-one">
+              <span class="dot"></span>
+              <div>
+                <strong>UI Focused</strong>
+                <p>Crafting interfaces that feel sharp and trustworthy.</p>
+              </div>
+            </div>
+            <div class="floating-card card-two">
+              <span class="dot"></span>
+              <div>
+                <strong>Responsive Builds</strong>
+                <p>Layouts that adapt beautifully from mobile to desktop.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="container reveal">
+          <div class="section-heading">
+            <p class="eyebrow">About Me</p>
+            <h2>Design-minded developer focused on real business results.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-card glass-panel">
+              <p>
+                I’m a front-end developer who specializes in building polished, conversion-friendly websites for startups, personal brands, and businesses that want a modern digital presence.
+              </p>
+              <p>
+                My workflow blends thoughtful UI design, responsive implementation, and clean code structure so every project is easy to maintain and ready to grow.
+              </p>
+            </div>
+
+            <div class="skills-panel glass-panel">
+              <h3>Skills</h3>
+              <div class="skills-list" aria-label="Core skills">
+                <span><i class="skill-icon" aria-hidden="true">HTML</i>HTML</span>
+                <span><i class="skill-icon" aria-hidden="true">CSS</i>CSS</span>
+                <span><i class="skill-icon" aria-hidden="true">JS</i>JavaScript</span>
+                <span><i class="skill-icon" aria-hidden="true">R</i>React</span>
+                <span><i class="skill-icon" aria-hidden="true">B</i>Bootstrap</span>
+                <span><i class="skill-icon" aria-hidden="true">G</i>Git</span>
+                <span><i class="skill-icon" aria-hidden="true">GH</i>GitHub</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section services" id="services">
+        <div class="container reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Services</p>
+            <h2>Flexible support for modern web projects.</h2>
+          </div>
+
+          <div class="card-grid services-grid">
+            <article class="service-card glass-panel">
+              <div class="icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4h13A1.5 1.5 0 0 1 20 5.5v9A1.5 1.5 0 0 1 18.5 16h-13A1.5 1.5 0 0 1 4 14.5v-9Z" stroke="currentColor" stroke-width="1.7"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+              </div>
+              <h3>Landing Page Development</h3>
+              <p>High-converting landing pages built to showcase offers, capture leads, and support campaigns.</p>
+            </article>
+
+            <article class="service-card glass-panel">
+              <div class="icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 17.5v-11Z" stroke="currentColor" stroke-width="1.7"/><path d="M8 9h8M8 12h5M8 15h7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+              </div>
+              <h3>Figma to HTML Conversion</h3>
+              <p>Pixel-aware implementation from design files into responsive, production-ready markup and styles.</p>
+            </article>
+
+            <article class="service-card glass-panel">
+              <div class="icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M9 13a4 4 0 1 1 0-8c1.24 0 2.38.56 3.12 1.45l1.66 1.99A4 4 0 1 1 15 15h-1" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M10 11h4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+              </div>
+              <h3>Website Bug Fixing</h3>
+              <p>Quick diagnosis and reliable fixes for layout issues, broken interactions, and browser quirks.</p>
+            </article>
+
+            <article class="service-card glass-panel">
+              <div class="icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M4 7.5h16M7 4v7m10-7v7M6 20h12a2 2 0 0 0 2-2V8H4v10a2 2 0 0 0 2 2Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+              </div>
+              <h3>Responsive Web Design</h3>
+              <p>Flexible layouts and adaptive UI systems that feel consistent on phones, tablets, and desktops.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="container reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2>Selected work built for clarity, speed, and polish.</h2>
+          </div>
+
+          <div class="card-grid project-grid">
+            <article class="project-card glass-panel">
+              <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80" alt="Project preview for SaaS dashboard" />
+              <div class="project-body">
+                <h3>SaaS Dashboard</h3>
+                <p>Clean analytics interface with responsive charts, cards, and structured workflow screens.</p>
+                <div class="project-links">
+                  <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card glass-panel">
+              <img src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=1200&q=80" alt="Project preview for agency website" />
+              <div class="project-body">
+                <h3>Creative Agency Site</h3>
+                <p>Bold visual storytelling site with subtle motion, strong messaging, and service positioning.</p>
+                <div class="project-links">
+                  <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card glass-panel">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80" alt="Project preview for portfolio website" />
+              <div class="project-body">
+                <h3>Portfolio Experience</h3>
+                <p>Personal brand landing page designed to convert visitors into inquiries and freelance leads.</p>
+                <div class="project-links">
+                  <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s discuss your next website.</h2>
+          </div>
+
+          <div class="contact-grid">
+            <form class="contact-form glass-panel" id="contactForm" novalidate>
+              <div class="field-row">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Your name" />
+                <small class="error" data-error-for="name"></small>
+              </div>
+
+              <div class="field-row">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" />
+                <small class="error" data-error-for="email"></small>
+              </div>
+
+              <div class="field-row">
+                <label for="subject">Subject</label>
+                <input id="subject" name="subject" type="text" placeholder="Project inquiry" />
+                <small class="error" data-error-for="subject"></small>
+              </div>
+
+              <div class="field-row">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Tell me about your project"></textarea>
+                <small class="error" data-error-for="message"></small>
+              </div>
+
+              <button class="btn btn-primary form-submit" type="submit">Submit Message</button>
+              <p class="form-status" id="formStatus" aria-live="polite"></p>
+            </form>
+
+            <aside class="contact-details glass-panel">
+              <h3>Contact Details</h3>
+              <ul>
+                <li><span>Email</span><a href="mailto:yourname@gmail.com">yourname@gmail.com</a></li>
+                <li><span>Phone</span><a href="tel:+94700000000">+94 7X XXX XXXX</a></li>
+                <li><span>Location</span><span>Sri Lanka</span></li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <a class="footer-brand" href="#hero">Kavindu Nimsara</a>
+        <div class="social-links" aria-label="Social media links">
+          <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+        </div>
+        <p>© 2026 Kavindu Nimsara. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
